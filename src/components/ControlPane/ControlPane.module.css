@@ -10,12 +10,22 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
+
+  /* Solve ex3 */
+  overflow-x: auto;
+  max-width: 100%;
+  white-space: nowrap;
+  padding-top: 24px;
 }
 
 .title {
   margin: 0;
   /* Optical centering */
   margin-bottom: -4px;
+
+  /* Solve ex3 */
+  position: sticky;
+  left: 0;
 }
 
 .metadata {

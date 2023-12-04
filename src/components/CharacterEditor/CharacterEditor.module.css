@@ -5,6 +5,8 @@
 
 .maxWidthWrapper {
   /* Solve ex5 */
+  /* Josh uses `position: relative;` instead */
+  /* I think this works because now perspective and MWW are in separate contexts, and perspective comes first in the DOM? */
   isolation: isolate;
 }
 
